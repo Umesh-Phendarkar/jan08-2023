@@ -8,3 +8,11 @@ resource "aws_instance" "myFirstinstance" {
     Name = "my-ec2"
   }
 }
+
+resource "aws"s3_bukcet" "bucket01" {
+bukcet = "08-jan-2023-my-bucket-umesh-2023-873773"
+tags = {
+Name = "my-bucket"
+  }
+ }
+ 
